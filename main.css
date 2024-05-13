@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        
+}
+
+main{
+    font-family: poppins;
+    background-image: url(image/bg02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+
+}
+
+main .head{
+    background-color: rgba(4, 221, 228, 0.2);
+    color: rgb(255, 255, 255);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    height: 10%;
+}
+
+main .head h1{
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+main .head ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+main .head ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+main .head ul li a:hover{
+    text-decoration: underline;    
+    color: rgb(255, 0, 0);
+    transition: 1.5s;
+} 
+
+main .content{
+  
+    color: rgb(255, 255, 255);
+    height: 90%;
+    display: flex;
+    padding: 120px 100px;
+    height: 90%;
+    gap: 5%;
+    
+  
+}
+
+main .content .text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
+}
+
+main .content .text h1{
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 45px;
+    letter-spacing: 1px;
+}
+
+main .content .text p{
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.border{
+    border-bottom: 3px solid white;
+    width: 50%;
+    height: 5%;
+    
+
+  
+}
+
+main .content .logo{  
+    height: 100%;
+    width: 50%;     
+    
+}
+
+main .content .logo img{    
+    max-height: 40%;
+    padding-left: 10%;
+  
+   
+}
