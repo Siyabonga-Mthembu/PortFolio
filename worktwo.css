@@ -92,7 +92,7 @@ transition: 1.5s;
 }
 
 #navigation img {
-  background-color: red;
+  background-color: rgb(255, 0, 0, 70%);
   color: white;
   height: 50px; 
   margin: 0; 
