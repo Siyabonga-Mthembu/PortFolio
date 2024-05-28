@@ -58,10 +58,10 @@ main .head ul li a:hover{
     text-decoration: underline;    
     color: rgb(255, 0, 0);
     transition: 1.5s;
+    cursor: pointer;
 } 
 
-main .content{
-  
+main .content{  
     color: rgb(255, 255, 255);
     height: 90%;
     display: flex;
@@ -96,7 +96,7 @@ main .content .text p{
 
 .border{
     border-bottom: 3px solid white;
-    width: 50%;
+    width: 60%;
     height: 5%;
     
 }
@@ -113,3 +113,34 @@ main .content .logo img{
   
    
 }
+
+button{
+    border: none;
+    background-color: rgba(4, 221, 228, 0.2);
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: poppins;    
+    padding: 10px 22px;
+    text-align: center;
+    font-size: 12px;    
+    cursor: pointer;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+button:hover a{text-decoration: underline;    
+    color: rgb(255, 0, 0);
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
